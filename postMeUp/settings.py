@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'postMeUp.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'djongo',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'postsMain',
         'USER':'gheath',
         'PASSWORD' : 'test123',
