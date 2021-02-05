@@ -78,9 +78,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'postsMain',
-        'CLIENT' : {
-            'host' : '127.0.0.1',
-        }
+        'USER':'gheath',
+        'PASSWORD' : 'test123',
+        'HOST':'127.0.0.1',
+        'PORT':'5432',
     }
 }
 
